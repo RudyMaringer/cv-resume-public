@@ -7,17 +7,20 @@
     --light-color: #D9D9D9;
     /* --bs-body-font-size: 1.2rem; */
     --bs-body-font-size: 1rem; /* manual*/
+
+    --bs-primary: #3f5892 /* manual */
 }
 
 a {
     word-break: break-word;
     text-decoration: none;
+    color: var(--bs-primary);
 }
 
 
 
 h1, h2, h3, h4 {
-    color: #000000;
+    color: #4b4b4b;
     /* color: #50055a; */
 }
 
@@ -69,7 +72,8 @@ h1, h2, h3, h4 {
     /*Manual addS*/
     strong {
         font-weight: 500;
-        color:#6b1177 /*Manual add*/
+        /* color:#6b1177 Manual add */
+        color: var(--bs-primary); /*Manual add*/
     }
 }
 
@@ -93,7 +97,7 @@ h1, h2, h3, h4 {
 
     strong {
         font-weight: 500;
-        color:#6b1177 /*Manual add*/
+        color: var(--bs-primary); /*Manual add*/
     }
 }
 
